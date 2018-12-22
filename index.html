@@ -1,92 +1,59 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<link rel= "stylesheet" type= "text/css" href= "/static/styles/mainpage.css">
+<div class="container">
 
-  <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="new.css">
-    
-  </head>
+			<div class="st-container">
 
-  <body>
-    <div class="nav">
-      <div class="container">
-      <ul class="pull-left">
-          <li><a href="#">Name</a></li>
-          <li><a href="#">Browse</a></li>
-        </ul>
-        <ul class ="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-        </div>
-    </div>
+				<input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+				<a href="#st-panel-1">Profile </a>
+				<input type="radio" name="radio-set" id="st-control-2"/>
+				<a href="#st-panel-2">Projects</a>
+				<input type="radio" name="radio-set" id="st-control-3"/>
+				<a href="#st-panel-3">Languages</a>
+				<input type="radio" name="radio-set" id="st-control-4"/>
+				<a href="#st-panel-4">Frameworks</a>
+				<input type="radio" name="radio-set" id="st-control-5"/>
+				<a href="#st-panel-5">Courses Completed</a>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Find a place to stay.</h1>
-        <p>Rent from people in over 34,000 cities and 192 countries.</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div> 
-    
-    
- <div class="neighborhood-guides">
-  <div class="container">
-    <h2>Neighborhood Guides</h2>
-    <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+				<div class="st-scroll">
 
-    <div class="row">
-    
-      <div class="col-md-4">
-      <div class="thumbnail">
-      <img src ="http://goo.gl/0sX3jq">
-      </div>
-      <div class="thumbnail">
-      <img src ="http://goo.gl/an2HXY">
-      </div></div>
+					<!-- Placeholder text from http://hipsteripsum.me/ -->
 
-      <div class="col-md-4">
-      <div class="thumbnail">
-      <img src = "http://goo.gl/Av1pac"  >
-      </div>
-      <div class="thumbnail">
-      <img src ="http://goo.gl/vw43v1" >
-      </div></div>
+					<section class="st-panel" id="st-panel-1">
+            <div class="st-deco" data-icon="&#xf069;"></div>
+						<h2>Profile</h2>
+                        
+                        <p> Welcome to my Page. I'm Abhishek and I graduated from BITS pilani in 2016. I like working on distributed systems .</p>
+                        
 
-     <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="http://goo.gl/0Kd7UO" >
-    </div>
-  </div>
+					</section>
+
+					<section class="st-panel st-color" id="st-panel-2">
+						<div class="st-deco" data-icon="&#xf118;"></div>
+						<h2>Projects</h2>
+						<p>Hotel Recommendation system, Plagiarism Checker, Compiler Design</p>
+					</section>
+
+					<section class="st-panel" id="st-panel-3">
+						<div class="st-deco" data-icon="&#xf0f4;"></div>
+						<h2>Languages</h2>
+						<p> Python, C/C++, Java, Go-lang</p>
+					</section>
+
+					<section class="st-panel st-color" id="st-panel-4">
+						<div class="st-deco" data-icon="&#xf06c;"></div>
+						<h2>Frameworks & Technologies </h2>
+						<p>Docker, Kubernetes, APIs, Elasticsearch, NoSQL Db, Redis, Zookeeper, RabbitMQ</p>
+					</section>
+
+					<section class="st-panel" id="st-panel-5">
+						<div class="st-deco" data-icon="&#xf004;"></div>
+						<h2>Courses Completed</h2>
+						<p>Pattern Recognition, Data Mining, Cryptography, Machine Learning</p>
+					</section>
+
+				</div><!-- // st-scroll -->
+
+			</div><!-- // st-container -->
 
 </div>
-
-    <div class="learn-more">
-	  <div class="container">
-	  <div class= "row">
-      
-      <div class ="col-md-4">
-	<h3>Travel</h3>
-	<p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
-	<p><a href="#">See how to travel on Airbnb</a></p>
-	  </div>
-		 
-	 <div class="col-md-4">
-		<h3>Host</h3>
-		<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
-	<p><a href="#">Learn more about hosting</a></p>
-	 </div>
-		 
-		  <div class="col-md-4">
-			<h3>Trust and Safety</h3>
-			<p>From Verified ID to our worldwide customer support team, we've got your back.</p>
-			<p><a href="#">Learn about trust at Airbnb</a></p>
-		  </div>
-	    </div>
-	  </div>
-	
-  </body>
-</html>
